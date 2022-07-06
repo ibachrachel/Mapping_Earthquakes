@@ -9,6 +9,9 @@ config.js
 # C extensions
 *.so
 
+# Ignore the config.js file.
+config.js
+
 # Distribution / packaging
 .Python
 build/
