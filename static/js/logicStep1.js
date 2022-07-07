@@ -1,8 +1,7 @@
 // Add console.log to check to see if our code is working.
 console.log("working");
 
-// Create the map object with a center and zoom level.
-let map = L.map('mapid').setView([40.7, -94.5], 4);
+
 
 // We create the tile layer that will be the background of our map.
 //can change the display with the styles: changed to navigation night
@@ -12,5 +11,16 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
     accessToken: API_KEY
 });
 
-// Then we add our 'graymap' tile layer to the map.
-streets.addTo(map);
+
+
+// Create a base layer that holds both maps.
+let baseMaps = {
+    "Streets": streets,
+    "Satellite": satelliteStreets
+  };
+
+  // Retrieve the earthquake GeoJSON data.
+d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function(data) {
+    // Creating a GeoJSON layer with the retrieved data.
+    L.geoJSON(data).addTo(map);
+  });
