@@ -1,6 +1,7 @@
 // Add console.log to check to see if our code is working.
 console.log("working");
 
+
 // We create the tile layer that will be the background of our map.
 //can change the display with the styles: changed to navigation night
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -9,8 +10,3 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
     accessToken: API_KEY
 });
 
-// Then we add our 'graymap' tile layer to the map.
-streets.addTo(map);
-
-// Accessing the Toronto neighborhoods GeoJSON URL.
-let torontoHoods = "https://raw.githubusercontent.com/<GitHub_name>/Mapping_Earthquakes/main/torontoNeighborhoods.json";
