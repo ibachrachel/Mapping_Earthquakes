@@ -62,7 +62,7 @@ for (var i = 0; i < magnitudes.length; i++) {
       magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1] + "<br>" : "+");
  }
   return div;
-};
+;
 
 legend.addTo(map);
 
