@@ -14,7 +14,7 @@ A company liked the original earthquake map with two different maps and the eart
 
 ![Tectonic Plate Overlay](https://user-images.githubusercontent.com/102566199/179374909-82c6e233-6523-41c5-83da-3b0f513fd77a.png)
 
-*Tectonic Lines Filter: Tectonic Plate Lines over North America*
+*Tectonic Lines Filter: Tectonic Plate Lines*
 
 
 ### Major Earthquake Data
@@ -22,7 +22,8 @@ A company liked the original earthquake map with two different maps and the eart
 ![Earthquake Data](https://user-images.githubusercontent.com/102566199/179374926-97f254ea-ae74-4eeb-a6c9-6d56d572fb3c.png)
 ![MajorEarthquakes Only](https://user-images.githubusercontent.com/102566199/179374930-3ff2e09a-a380-48af-a7f9-d7a176e9fd64.png)
 
-*Earthquakes Data Filter: Earthquakes of North America
+*Earthquakes Data Filter: Earthquakes*
+
 
 ### Additional Map
 
